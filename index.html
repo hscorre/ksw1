@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Venda de Contas Tik Tok</title>
+  <title>Venda de Contas TikTok</title>
   <style>
     * {
       margin: 0;
@@ -16,7 +16,7 @@
       color: #333;
     }
     header {
-      background: #cc0000;
+      background: #8a2be2;
       color: #fff;
       padding: 30px 20px;
       text-align: center;
@@ -42,6 +42,7 @@
       box-shadow: 0 3px 10px rgba(0,0,0,0.1);
       overflow: hidden;
       transition: transform 0.2s ease-in-out;
+      position: relative;
     }
     .canal:hover {
       transform: scale(1.02);
@@ -57,7 +58,7 @@
     .canal h2 {
       font-size: 18px;
       margin-bottom: 10px;
-      color: #cc0000;
+      color: #8a2be2;
     }
     .canal p {
       margin: 5px 0;
@@ -91,6 +92,38 @@
     .whatsapp-btn:hover {
       background: #1ebe5b;
     }
+    .selo {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: gold;
+      color: #000;
+      font-weight: bold;
+      padding: 5px 10px;
+      font-size: 12px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    .testemunhos, .comentarios {
+      max-width: 800px;
+      margin: 40px auto;
+      text-align: center;
+      font-size: 15px;
+      color: #555;
+    }
+    .video-carousel {
+      display: flex;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      gap: 10px;
+      padding: 20px;
+    }
+    .video-carousel iframe {
+      min-width: 300px;
+      height: 200px;
+      scroll-snap-align: start;
+      border: none;
+    }
     footer {
       text-align: center;
       color: #777;
@@ -102,130 +135,42 @@
 <body>
 
 <header>
-  <h1>Contas Tik Tok à Venda</h1>
-  <p>Todas com seguidores reais, engajamento ativo e prontos para uso imediato</p>
+  <h1>Contas TikTok à Venda</h1>
+  <p>Todas com seguidores reais, engajamento ativo e prontas para uso imediato</p>
 </header>
 
 <div class="container">
-  <!-- Canal 1 -->
-  <div class="canal">
-    <img src="https://upload.cc/i1/2025/05/06/6ygFsj.jpg" alt="Canal Cortes 1">
-    <div class="canal-content">
-      <h2>Conta Dark - 2.239 Seguidores</h2>
-      <p> NIcho Religioso Pronto para subir.</p>
-      <p><strong>Preço:</strong> R$ 30,00</p>
-      <a href="https://www.tiktok.com/@jesusyamor" target="_blank">Ver Conta</a>
-    </div>
-  </div>
-
-  <!-- Canal 2 -->
-  <div class="canal">
-    <img src="https://upload.cc/i1/2025/05/06/VH8NYD.jpg" alt="Canal Cortes 2">
-    <div class="canal-content">
-      <h2>Conta Dark - 845 Seguidores</h2>
-      <p>Conta com ótimo engajamento para cortes Cartomante.</p>
-      <p><strong>Preço:</strong> R$ 25,00</p>
-      <a href="https://www.tiktok.com/@seu.futuro.oficial" target="_blank">Ver Conta</a>
-    </div>
-  </div>
-
-  <!-- Canal 3 -->
-  <div class="canal">
-    <img src="https://upload.cc/i1/2025/05/06/DiJswL.jpg" alt="Canal Cortes 3">
-    <div class="canal-content">
-      <h2>Conta Dark - 1.084 Seguidores</h2>
-      <p>Conta Focada em Edits</p>
-      <p><strong>Preço:</strong> R$ 15,00</p>
-      <a href="https://www.tiktok.com/@fiquericox" target="_blank">Ver Conta</a>
-    </div>
-  </div>
-
-  <!-- Canal 4 -->
-  <div class="canal">
-    <img src="https://upload.cc/i1/2025/05/06/MJWtV1.jpg" alt="Canal Cortes 4">
-    <div class="canal-content">
-      <h2>Conta Dark - 1.195 Seguidores</h2>
-      <p>Com engajamento perfeito para nichos de esportes e podcasts.</p>
-      <p><strong>Preço:</strong> R$ 28,00</p>
-      <a href="https://www.tiktok.com/@neyskeet" target="_blank">Ver Conta</a>
-    </div>
-  </div>
-
-  <!-- Canal 5 -->
-  <div class="canal">
-    <img src="https://upload.cc/i1/2025/05/06/6tr10l.jpg" alt="Canal Cortes 5">
-    <div class="canal-content">
-      <h2>Conta Dark - 3.937 Seguidores</h2>
-      <p>Ótimo para quem quer entrar no nicho de edits e entretenimento.</p>
-      <p><strong>Preço:</strong> R$ 35,00</p>
-      <a href="https://www.tiktok.com/@charlancheiraa" target="_blank">Ver Conta</a>
-    </div>
-  </div>
-
-  <!-- Canal 6 -->
-  <div class="canal">
-    <img src="https://upload.cc/i1/2025/05/06/yJ4mw9.jpg" alt="Canal Cortes 6">
-    <div class="canal-content">
-      <h2>Conta Dark - 7.762 Seguidores</h2>
-      <p>Especializado em cortes de Músias e live streaming.</p>
-      <p><strong>Preço:</strong> R$ 60,00</p>
-      <a href="https://www.tiktok.com/@luckyykkkj" target="_blank">Ver Conta</a>
-    </div>
-  </div>
-
-  <!-- Canal 7 -->
-  <div class="canal">
-    <img src="https://upload.cc/i1/2025/05/06/Io4aTX.jpg" alt="Canal Cortes 7">
-    <div class="canal-content">
-      <h2>Conta Dark - 9.535 Seguidores</h2>
-      <p>Focados em cortes e videos virais.</p>
-      <p><strong>Preço:</strong> R$ 85,00</p>
-      <a href="https://www.tiktok.com/@anna_wy0" target="_blank">Ver Conta</a>
-    </div>
-  </div>
-
-  <!-- Canal 8 -->
-  <div class="canal">
-    <img src="https://upload.cc/i1/2025/05/06/8Ybg7v.jpg" alt="Canal Cortes 8">
-    <div class="canal-content">
-      <h2>Conta Dark - 10.845 Seguidores</h2>
-      <p>Conta de nicho para jovens, focado em reações e cortes rápidos.</p>
-      <p><strong>Preço:</strong> R$ 100,00</p>
-      <a href="https://www.tiktok.com/@sullyxnz" target="_blank">Ver Conta</a>
-    </div>
-  </div>
-
-  <!-- Replique o modelo para os outros canais -->
-  <!-- Canal 9 a 20 -->
-  <div class="canal">
-    <img src="https://upload.cc/i1/2025/05/06/0pDo5d.jpg" alt="Canal Cortes 9">
-    <div class="canal-content">
-      <h2>Conta Dark - 11.105 Seguidores</h2>
-      <p>Focado em vídeos de free fire e cortes..</p>
-      <p><strong>Preço:</strong> R$ 120,00</p>
-      <a href="https://www.tiktok.com/@makzinkq_" target="_blank">Ver Conta</a>
-    </div>
-  </div>
-  
-  <!-- Canal 9 a 20 -->
-  <div class="canal">
-    <img src="https://upload.cc/i1/2025/05/06/839bV7.jpg" alt="Canal Cortes 9">
-    <div class="canal-content">
-      <h2>Conta Dark - 11.670 Seguidores</h2>
-      <p>Focado em cortes de jogos shows e humor.</p>
-      <p><strong>Preço:</strong> R$ 135,00</p>
-      <a href="https://www.tiktok.com/@ananda.santtos" target="_blank">Ver Conta</a>
-    </div>
-  </div>
-  
-  <!-- Mais canais de 10 a 20 são criados de forma similar, variando título, preço, etc. -->
-
+  <div class="canal"><img src="https://upload.cc/i1/2025/05/06/8Ybg7v.jpg"><div class="canal-content"><h2>Conta Dark - 10.845 Seguidores</h2><p>Reações e cortes rápidos</p><p><strong>R$ 100,00</strong></p><a href="https://www.tiktok.com/@sullyxnz" target="_blank">Ver Conta</a></div></div>
+  <div class="canal"><img src="https://upload.cc/i1/2025/05/06/6ygFsj.jpg"><div class="canal-content"><h2>Conta Dark - 2.239 Seguidores</h2><p>Nicho religioso</p><p><strong>R$ 30,00</strong></p><a href="https://www.tiktok.com/@jesusyamor" target="_blank">Ver Conta</a></div></div>
+  <div class="canal"><img src="https://upload.cc/i1/2025/05/06/VH8NYD.jpg"><div class="canal-content"><h2>Conta Dark - 845 Seguidores</h2><p>Cortes de cartomancia</p><p><strong>R$ 25,00</strong></p><a href="https://www.tiktok.com/@seu.futuro.oficial" target="_blank">Ver Conta</a></div></div>
+  <div class="canal"><img src="https://upload.cc/i1/2025/05/06/DiJswL.jpg"><div class="canal-content"><h2>Conta Dark - 1.084 Seguidores</h2><p>Edit de vídeos</p><p><strong>R$ 15,00</strong></p><a href="https://www.tiktok.com/@fiquericox" target="_blank">Ver Conta</a></div></div>
+  <div class="canal"><img src="https://upload.cc/i1/2025/05/06/MJWtV1.jpg"><div class="canal-content"><h2>Conta Dark - 1.195 Seguidores</h2><p>Esportes e podcasts</p><p><strong>R$ 28,00</strong></p><a href="https://www.tiktok.com/@neyskeet" target="_blank">Ver Conta</a></div></div>
+  <div class="canal"><img src="https://upload.cc/i1/2025/05/06/6tr10l.jpg"><div class="canal-content"><h2>Conta Dark - 3.937 Seguidores</h2><p>Edit e entretenimento</p><p><strong>R$ 35,00</strong></p><a href="https://www.tiktok.com/@charlancheiraa" target="_blank">Ver Conta</a></div></div>
+  <div class="canal"><img src="https://upload.cc/i1/2025/05/06/yJ4mw9.jpg"><div class="canal-content"><h2>Conta Dark - 7.762 Seguidores</h2><p>Cortes de música</p><p><strong>R$ 60,00</strong></p><a href="https://www.tiktok.com/@luckyykkkj" target="_blank">Ver Conta</a></div></div>
+  <div class="canal"><img src="https://upload.cc/i1/2025/05/06/Io4aTX.jpg"><div class="canal-content"><h2>Conta Dark - 9.535 Seguidores</h2><p>Vídeos virais</p><p><strong>R$ 85,00</strong></p><a href="https://www.tiktok.com/@anna_wy0" target="_blank">Ver Conta</a></div></div>
+  <div class="canal"><img src="https://upload.cc/i1/2025/05/06/0pDo5d.jpg"><div class="canal-content"><h2>Conta Dark - 11.105 Seguidores</h2><p>Free Fire</p><p><strong>R$ 120,00</strong></p><a href="https://www.tiktok.com/@makzinkq_" target="_blank">Ver Conta</a></div></div>
+  <div class="canal"><img src="https://upload.cc/i1/2025/05/06/839bV7.jpg"><div class="canal-content"><h2>Conta Dark - 11.670 Seguidores</h2><p>Humor e jogos</p><p><strong>R$ 135,00</strong></p><a href="https://www.tiktok.com/@ananda.santtos" target="_blank">Ver Conta</a></div></div>
 </div>
+
+<section class="testemunhos">
+  <h3>Depoimentos em Vídeo</h3>
+  <div class="video-carousel">
+    <iframe src="https://www.youtube.com/embed/VIDEO_ID1"></iframe>
+    <iframe src="https://www.youtube.com/embed/VIDEO_ID2"></iframe>
+    <iframe src="https://www.youtube.com/embed/VIDEO_ID3"></iframe>
+  </div>
+</section>
+
+<section class="comentarios">
+  <p>"Comprei a conta e já estava pronta para usar!" — Pedro Oliveira</p>
+  <p>"Comecei a faturar no mesmo dia. Excelente!" — Vanessa Santos</p>
+  <p>"Rápido, seguro e aprovado!" — Márcia</p>
+</section>
 
 <a class="whatsapp-btn" href="https://wa.me/SEUNUMEROAQUI" target="_blank">💬 Falar no WhatsApp</a>
 
 <footer>
-                                © 2025 • Todos os direitos reservados •
+  © 2025 • Todos os direitos reservados • Garantia de entrega ou seu dinheiro de volta por 7 dias.
 </footer>
 
 </body>
